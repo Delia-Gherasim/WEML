@@ -1,0 +1,114 @@
+﻿@ElderyPeopleCare_HostAddress = http://localhost:5284
+
+
+GET {{ElderyPeopleCare_HostAddress}}/challangequestions/create/{id}
+
+###
+
+POST {{ElderyPeopleCare_HostAddress}}/challangequestions/create/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challangequestions/delete/{id}
+
+###
+
+POST {{ElderyPeopleCare_HostAddress}}/challangequestions/deleteconfirmed/0
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challangequestions/details/{id}
+
+###
+
+POST {{ElderyPeopleCare_HostAddress}}/challangequestions/edit/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challangequestions/edit/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challangequestions/index/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challanges/create/{id}
+
+###
+
+POST {{ElderyPeopleCare_HostAddress}}/challanges/create/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challanges/delete/{id}
+
+###
+
+POST {{ElderyPeopleCare_HostAddress}}/challanges/deleteconfirmed/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challanges/details/{id}
+
+###
+
+POST {{ElderyPeopleCare_HostAddress}}/challanges/edit/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challanges/edit/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challanges/index/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/home/error/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/home/index/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/home/privacy/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/questions/create/{id}
+
+###
+
+POST {{ElderyPeopleCare_HostAddress}}/questions/create/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/questions/delete/{id}
+
+###
+
+POST {{ElderyPeopleCare_HostAddress}}/questions/deleteconfirmed/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/questions/details/{id}
+
+###
+
+POST {{ElderyPeopleCare_HostAddress}}/questions/edit/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/questions/edit/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/questions/index/{id}
+
+###
+
+GET {{ElderyPeopleCare_HostAddress}}/challanges/edit/{id}
+
+###
