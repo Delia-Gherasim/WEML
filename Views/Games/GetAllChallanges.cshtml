@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<ElderyPeopleCare.Models.Challange>
 
+<link rel="stylesheet" href="~/css/site.css" />
 @{
     ViewData["Title"] = "Games";
 }
@@ -7,17 +8,17 @@
 <div>
     <h1>Welcome to the Games Page</h1>
     <h3>Your current score is: </h3>
-    <h3>Please click on the game you are interested in playing today</h3>
+    <h3>Please click on the OPEN button for the game you are interested in playing today</h3>
 </div>
 
 <div class="row">
     @foreach (var item in Model)
     {
         <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card elder-friendly-card">
                 <div class="card-body text-center">
                     <h5 class="card-title">@Html.DisplayFor(modelItem => item.name)</h5>
-                    <a asp-action="OpenChallange" asp-route-id="@item.cId" class="btn btn-info btn-lg">Open</a>
+                    <a asp-action="OpenChallange" asp-route-id="@item.cId" class="button-primary">Open</a>
                 </div>
                 <div class="card-footer">
                     <p><strong>Max Score:</strong> @Html.DisplayFor(modelItem => item.maxScore)</p>

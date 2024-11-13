@@ -38,6 +38,7 @@ namespace ElderyPeopleCare.Data
                 .Property(c => c.cId)
                 .ValueGeneratedOnAdd();
         }
+        public DbSet<ElderyPeopleCare.Models.Article> Article { get; set; } = default!;
     }
 
 }
